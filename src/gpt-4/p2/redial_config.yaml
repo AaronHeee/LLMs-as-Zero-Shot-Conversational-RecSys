@@ -1,0 +1,9 @@
+from_json: ../data/redial/test_p2.jsonl
+to_json: gpt-4/p2/redial_test.jsonl
+prompt: "Pretend you are a movie recommender system. \n I will give you a conversation between a user and you (a recommender system). Based on the conversation, you reply me with 20 recommendations without extra sentences.\n Here is the conversation: {}"
+model: gpt-4
+temperature: 0.0
+max_tokens: 512
+n_threads: 10
+n_print: 100
+n_samples: -1

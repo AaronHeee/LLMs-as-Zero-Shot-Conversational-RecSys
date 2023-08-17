@@ -1,0 +1,11 @@
+from_json: ../data/redial/test_p3.jsonl
+max_tokens: 512
+n_print: 100
+n_samples: -1
+pretrained_model_name_or_path: ../../llms/vicuna_13b
+prompt: "Pretend you are a movie recommender system. \n I will give you a conversation\
+  \ between a user and you (a recommender system). Based on the conversation, you\
+  \ reply me with 20 recommendations without extra sentences.\n Here is the conversation:\
+  \ {}"
+temperature: 0.0
+to_json: vicuna/p3/redial_test.jsonl

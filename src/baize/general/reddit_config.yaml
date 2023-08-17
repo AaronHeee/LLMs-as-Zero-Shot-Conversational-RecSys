@@ -1,0 +1,8 @@
+from_json: ../data/reddit/test.jsonl
+to_json: baize/general/reddit_test.jsonl
+pretrained_model_name_or_path: ../../llms/baize_13b/baize_13b/models--project-baize--baize-v2-13b/snapshots/983e06d987a05584de7d251e8177945dc98600cf
+temperature: 0.0 
+max_tokens: 512 
+n_print: 100 
+prompt: "Pretend you are a movie recommender system. \n I will give you a conversation between a user and you (a recommender system). Based on the conversation, you reply me with 20 recommendations without extra sentences.\n Here is the conversation: {}"
+n_samples: -1 
