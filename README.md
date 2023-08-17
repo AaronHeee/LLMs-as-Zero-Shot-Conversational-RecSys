@@ -38,7 +38,7 @@ We upload the raw and processed data of half a year (`Reddit-Movie-base-V1`), on
 | [`Reddit-Movie-small-V1`]() | TBD | January 2022 - December 2022 |
 | [`Reddit-Movie-large-V1`]() | TBD | January 2012 - December 2022 |
 
-**NOTE:** Different from the previous conversational recommendation datasets from crowd sourcing, our `Reddit-Movie` dataset is constructured by mining from web data, therefore, it is noisy and needs efforts for data cleaning such as named entity recognition and entity linking. Here we use `V1` to highlight that this processed version is the first verion, **welcome to provide cleaner processed version (such as `V2`)!**
+**NOTE:** Different from the previous conversational recommendation datasets from crowd sourcing, our `Reddit-Movie` dataset is constructed by mining from web data, therefore, it is noisy and needs efforts for data cleaning such as *named entity recognition* and *entity linking*. Thus we use `V1` to highlight that this processed version is the first verion, **welcome to contribute to cleaner processed versions (such as `V2`) in the future!**
 
 ## LLMs Results
 
@@ -53,7 +53,7 @@ Here `text` means the file of generated text and extracted predicted movies; `r*
 | `r3` | ✅ | ❌ | 
 | `r4` | ✅ | ✅ | 
 
-Here "OOV Items" means the out-of-vocabulary items, i.e., the items that are not legal in the pre-defined candidate set. We can filter the generated OOV items or not. Also, "Seen Items" means the items mentioned in the current conversation before, which is related to the **"Repeated Items Can Be Shortcuts"** finding in our paper.
+"OOV Items" means the out-of-vocabulary items, i.e., the items that are not legal in the pre-defined candidate set. We can filter the generated OOV items out or not. Also, "Seen Items" means the items mentioned in the current conversation already, which is related to the **"Repeated Items Can Be Shortcuts"** finding in our paper.
 
 We provide the results on `inspired`, `redial` and `reddit` datasets:
 
@@ -84,6 +84,8 @@ We provide the results on `inspired`, `redial` and `reddit` datasets:
 
 
 ### Generating Scripts
+
+We provide the scripts so that you are able to generate the results by yourselves.
 
 #### For OpenAI LLMs (`GPT-4` and `GPT-3.5-turbo`)
 
