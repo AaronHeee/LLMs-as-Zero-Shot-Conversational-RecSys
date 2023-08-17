@@ -182,7 +182,7 @@ For more model results like UniCRS and other baselines, we are organizing our re
 
 Please cite our paper if you are using our code or datasets. Thanks! Please contact [Zhankui He](https://aaronheee.github.io) if you have any questions or suggestions.
 
-```tex
+```
 @inproceedings{he23large,
   title = Large language models as zero-shot conversational recommenders",
   author = "Zhankui He and Zhouhang Xie and Rahul Jha and Harald Steck and Dawen Liang and Yesu Feng and Bodhisattwa Majumder and Nathan Kallus and Julian McAuley",
