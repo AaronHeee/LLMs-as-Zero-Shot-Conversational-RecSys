@@ -6,7 +6,7 @@
 
 This is the evaluation data and Large Language Models (LLMs) results from our CIKM'23 paper:
 
-**Large Language Models as Zero-Shot Conversational Recommenders**, Zhankui He*, Zhouhang Xie*, Rahul Jha, Harald Steck, Dawen Liang, Yesu Feng, Bodhisattwa Majumder, Nathan Kallus, Julian McAuley, Conference on Information and Knowledge Management, CIKM'23.
+**Large Language Models as Zero-Shot Conversational Recommenders**, Zhankui He*, Zhouhang Xie*, Rahul Jha, Harald Steck, Dawen Liang, Yesu Feng, Bodhisattwa Majumder, Nathan Kallus, Julian McAuley, Conference on Information and Knowledge Management, CIKM'23. * denotes equal contribution.
 
 Please check the [arxiv version]() of this paper, where we will update more detailed information than the CIKM'23 version. **This is a work from UCSD-Netflix collaboration.**
 
@@ -30,7 +30,7 @@ We uploaded the test data in `data/` folder, which can be used to form the promp
 
 ### Complete Version `Reddit-Movie` Dataset
 
-We upload the raw and processed data of half a year (`Reddit-Movie-base-V1`), a year (`Reddit-Movie-small-V1`) and ten year (`Reddit-Movie-small-V1`) conversational recommendation in movie domain from [Reddit](https://www.reddit.com/) to [huggingface datasets hub](https://huggingface.co/datasets). This dataset is processed from the reddit dump on [pushshift.io](https://pushshift.io) and only for research use.
+We upload the raw and processed data of half a year (`Reddit-Movie-base-V1`), one year (`Reddit-Movie-small-V1`) and ten year (`Reddit-Movie-large-V1`) conversational recommendation in movie domain from [Reddit](https://www.reddit.com/) to [huggingface datasets hub](https://huggingface.co/datasets). This dataset is processed from the reddit dump on [pushshift.io](https://pushshift.io) and only for research use.
 
 | Data Name | Data Size | Time Range | 
 | -- | -- | -- |
