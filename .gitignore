@@ -1,7 +1,6 @@
 !*.py 
 !*.ipynb
 **/checkpoints/
-data/
 __pycache__/
 **/reports/
 *.pt

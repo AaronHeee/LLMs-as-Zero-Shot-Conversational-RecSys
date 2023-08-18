@@ -2,8 +2,6 @@
 
 ![intro](img/intro.jpg)
 
-## Introduction
-
 This is the evaluation data and Large Language Models (LLMs) results from our CIKM'23 paper:
 
 **Large Language Models as Zero-Shot Conversational Recommenders**, Zhankui He*, Zhouhang Xie*, Rahul Jha, Harald Steck, Dawen Liang, Yesu Feng, Bodhisattwa Majumder, Nathan Kallus, Julian McAuley, Conference on Information and Knowledge Management, CIKM'23. * denotes equal contribution.
@@ -13,6 +11,10 @@ Please check the [arxiv version]() of this paper, where we will update more deta
 Please contact [Zhankui He](https://aaronheee.github.io) if you have any questions, thanks!
 
 ## Dataset
+
+### Disclaimer
+
+**Please note that conversations processed from Reddit raw data may include content that is not entirely conducive to a positive experience (e.g., toxic speech). Exercise caution and discretion when utilizing this information.**
 
 ### Testing Data for Our Paper
 
@@ -28,17 +30,19 @@ We uploaded the test data in `data/` folder, which can be used to form the promp
 |  `test_p4.json`  |  Similar to `test.json`, but we use historical conversational text with randomly mentioned movies. P4 stands for "Placeholder 4"  |  `{"input": "System: How did you like Titanic? It definitely has the drama aspect...\n User: I liked it ..." "rec": [9722]}`  |
 |  `test_raw.json`  |  Raw data file similar to the files provided in [`CRSLab`](https://github.com/RUCAIBox/CRSLab/tree/main)  |  `{"context": ["", ... "the last movie i saw in the theater was Hustlers . I generally like comedy, drama and documentaries"], "resp": "How did you like Hustlers? ...", "rec": [9722], "entity": [9722, 15748], "prev_entity": [15748, 17158, 8683, 8881, 16785, 9722], "dialog_id": "test_0", "turn_id": "test_4", "is_user": 0, "entity_name": ["drama", "Hustlers"]}`  |
 
+We provide the training, validation and testing data of these three datasets in huggingface datasets hub, please check [inspired_cikm](https://huggingface.co/datasets/ZhankuiHe/inspired_cikm), [redial_cikm](https://huggingface.co/datasets/ZhankuiHe/redial_cikm) and [reddit_cikm](https://huggingface.co/datasets/ZhankuiHe/reddit_cikm).
+
 ### Complete Version `Reddit-Movie` Dataset
 
-We upload the raw and processed data of half a year (`Reddit-Movie-base-V1`), one year (`Reddit-Movie-small-V1`) and ten year (`Reddit-Movie-large-V1`) conversational recommendation in movie domain from [Reddit](https://www.reddit.com/) to [huggingface datasets hub](https://huggingface.co/datasets). This dataset is processed from the reddit dump on [pushshift.io](https://pushshift.io) and only for research use.
+We upload the raw (`Reddit-Movie-raw`) and processed data of one year (`Reddit-Movie-small-V1`) and ten year (`Reddit-Movie-large-V1`) conversational recommendation in movie domain from [Reddit](https://www.reddit.com/) to [huggingface datasets hub](https://huggingface.co/datasets). This dataset is processed from the reddit dump on [pushshift.io](https://pushshift.io) and only for research use.
 
 | Data Name | Data Size | Time Range | 
 | -- | -- | -- |
-| [`Reddit-Movie-base-V1`]() | TBD | July 2022 - December 2022 |
+| [`Reddit-Movie-raw`]() | TBD | January 2012 - December 2022 |
 | [`Reddit-Movie-small-V1`]() | TBD | January 2022 - December 2022 |
 | [`Reddit-Movie-large-V1`]() | TBD | January 2012 - December 2022 |
 
-**NOTE:** Different from the previous conversational recommendation datasets from crowd sourcing, our `Reddit-Movie` dataset is constructed by mining from web data, therefore, it is noisy and needs efforts for data cleaning such as *named entity recognition* and *entity linking*. Thus we use `V1` to highlight that this processed version is the first verion, **welcome to contribute to cleaner processed versions (such as `V2`) in the future!**
+**NOTE:** Different from the previous conversational recommendation datasets from crowdsourcing, our `Reddit-Movie` dataset is constructed by mining web data. Therefore, it is noisy and needs efforts for data cleaning such as *named entity recognition* and *entity linking*. Thus we use `V1` to highlight that this processed version is the first verion. Meanwhile, we shared the processing scripts in [another repo](). **Welcome to contribute to cleaner processed versions (such as `V2`) in the future!**
 
 ## LLMs Results
 
