@@ -14,7 +14,7 @@ Please contact [Zhankui He](https://aaronheee.github.io) if you have any questio
 
 ### Disclaimer
 
-**Please note that conversations processed from Reddit raw data may include content that is not entirely conducive to a positive experience (e.g., toxic speech). Exercise caution and discretion when utilizing this information.**
+⚠️ **Please note that conversations processed from Reddit raw data may include content that is not entirely conducive to a positive experience (e.g., toxic speech). Exercise caution and discretion when utilizing this information.**
 
 ### Testing Data for Our Paper
 
