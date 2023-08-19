@@ -38,11 +38,11 @@ We upload the raw (`Reddit-Movie-raw`) and processed data of one year (`Reddit-M
 
 | Data Name | Data Size | Time Range | 
 | -- | -- | -- |
-| [`Reddit-Movie-raw`]() | TBD | January 2012 - December 2022 |
-| [`Reddit-Movie-small-V1`]() | TBD | January 2022 - December 2022 |
-| [`Reddit-Movie-large-V1`]() | TBD | January 2012 - December 2022 |
+| [`Reddit-Movie-raw`](https://huggingface.co/datasets/ZhankuiHe/reddit_movie_raw) | 2.81GB | January 2012 - December 2022 |
+| [`Reddit-Movie-small-V1`](https://huggingface.co/datasets/ZhankuiHe/reddit_movie_small_v1) | 510MB | January 2022 - December 2022 |
+| [`Reddit-Movie-large-V1`](https://huggingface.co/datasets/ZhankuiHe/reddit_movie_large_v1) | 2.35GB | January 2012 - December 2022 |
 
-**NOTE:** Different from the previous conversational recommendation datasets from crowdsourcing, our `Reddit-Movie` dataset is constructed by mining web data. Therefore, it is noisy and needs efforts for data cleaning such as *named entity recognition* and *entity linking*. Thus we use `V1` to highlight that this processed version is the first verion. Meanwhile, we shared the processing scripts in [another repo](). **Welcome to contribute to cleaner processed versions (such as `V2`) in the future!**
+**NOTE:** Different from the previous conversational recommendation datasets from crowdsourcing, our `Reddit-Movie` dataset is constructed by mining web data. Therefore, it is noisy and needs efforts for data cleaning such as *named entity recognition* and *entity linking*. Thus we use `V1` to highlight that this processed version is the first verion. **Welcome to contribute to cleaner processed versions (such as `V2`) in the future!**
 
 ## LLMs Results
 
@@ -186,7 +186,7 @@ For more model results like UniCRS and other baselines, we are organizing our re
 
 ## Citation
 
-Please cite our paper if you are using our code or datasets. Thanks! Please contact [Zhankui He](https://aaronheee.github.io) if you have any questions or suggestions.
+Please cite our paper if you are using our code or datasets. 
 
 ```
 @inproceedings{he23large,
@@ -196,3 +196,20 @@ Please cite our paper if you are using our code or datasets. Thanks! Please cont
   booktitle = "CIKM"
 }
 ```
+
+And our original reddit dataset is from [pushshift.io](https://pushshift.io), so please cite it as well:
+
+```
+@inproceedings{baumgartner2020pushshift,
+  title={The pushshift reddit dataset},
+  author={Baumgartner, Jason and Zannettou, Savvas and Keegan, Brian and Squire, Megan and Blackburn, Jeremy},
+  booktitle={Proceedings of the international AAAI conference on web and social media},
+  volume={14},
+  pages={830--839},
+  year={2020}
+}
+```
+
+## Contact Information
+
+Please contact [Zhankui He](https://aaronheee.github.io) if you have any questions or suggestions. Thanks!
