@@ -184,9 +184,23 @@ We provide the scripts so that you are able to generate the results by yourselve
 
 For more model results like UniCRS and other baselines, we are organizing our results and developing a conversational recommender system toolkit to build those models in a convenient way. Stay tuned!
 
+## Resource Summary
+
+We share the resource created in this project:
+
+| Type | Link | Note |
+| ---- | ---- | ---- |
+| Code | [This repo]() | LLMs scripts and results |
+| Data | [Reddit-Movie-raw]() | The raw data from movie recommendation related conversations on Reddit | 
+| Data | [Reddit-Movie-small-V1]() | One-year (2022) version of Reddit-Movie CRS data, with Version 1 processing |
+| Data | [Reddit-Movie-large-V1]() | Ten-year (2012-2022) version of Reddit-Movie CRS data, with Version 1 processing |
+| Data | [ChatGPT Annotations]() [COMING SOON!] | ChatGPT annotations for movie NER |
+| Model | [Move-Extractor-T5]() [COMING SOON!] | T5 Model fine-tuned on ChatGPT annotations to extract movie names from raw text. |
+| Code | [Reddit Processing]() [COMING SOON!] | Python scripts to process raw Reddit data to CRS data |
+
 ## Citation
 
-Please cite our paper if you are using our code or datasets. 
+Please cite our paper if you are using our code or resources. 
 
 ```
 @inproceedings{he23large,
