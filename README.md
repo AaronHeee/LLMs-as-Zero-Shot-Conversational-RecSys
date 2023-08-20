@@ -34,7 +34,7 @@ We provide the training, validation and testing data of these three datasets in 
 
 ### Complete Version `Reddit-Movie` Dataset
 
-We upload the raw (`Reddit-Movie-raw`) and processed data of one year (`Reddit-Movie-small-V1`) and ten year (`Reddit-Movie-large-V1`) conversational recommendation in movie domain from [Reddit](https://www.reddit.com/) to [huggingface datasets hub](https://huggingface.co/datasets). This dataset is processed from the reddit dump on [pushshift.io](https://pushshift.io) and only for research use.
+We upload the raw (`Reddit-Movie-raw`) and processed data of one-year (`Reddit-Movie-small-V1`) and ten-year (`Reddit-Movie-large-V1`) conversational recommendation in movie domain from [Reddit](https://www.reddit.com/) to [huggingface datasets hub](https://huggingface.co/datasets). This dataset is processed from the reddit dump on [pushshift.io](https://pushshift.io) and only for research use.
 
 | Data Name | Data Size | Time Range | 
 | -- | -- | -- |
