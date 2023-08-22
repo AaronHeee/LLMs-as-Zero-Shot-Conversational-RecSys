@@ -6,7 +6,7 @@ This is the evaluation data and Large Language Models (LLMs) results from our CI
 
 **Large Language Models as Zero-Shot Conversational Recommenders**, Zhankui He*, Zhouhang Xie*, Rahul Jha, Harald Steck, Dawen Liang, Yesu Feng, Bodhisattwa Majumder, Nathan Kallus, Julian McAuley, Conference on Information and Knowledge Management, CIKM'23. * denotes equal contribution.
 
-Please check the [arxiv version]() **[COMING SOON!]** of this paper, where we will update more detailed information than the CIKM'23 version. **This is a work from UCSD-Netflix collaboration.**
+Please check the [arxiv version](https://arxiv.org/pdf/2308.10053.pdf) of this paper, where we will update more detailed information than the CIKM'23 version. **This is a work from UCSD-Netflix collaboration.**
 
 Please contact [Zhankui He](https://aaronheee.github.io) if you have any questions, thanks!
 
